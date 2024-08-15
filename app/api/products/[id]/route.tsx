@@ -48,3 +48,4 @@ export async function PUT(
 
   return NextResponse.json({ message: "Product updated", product: updatedProduct });
 }
+
